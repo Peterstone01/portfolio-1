@@ -7,47 +7,22 @@ import { FaStarOfLife } from "react-icons/fa";
 import { IoIosHome } from "react-icons/io";
 const Footer = () => {
   return (
-    <footer className="h-[200px] border-t w-full bg-gray-300 bottom-0 ">
-      <div className="px-14 py-5 grid grid-cols-8 ">
-        <div className="col-span-2">
-          <div className="">
-            <Link href="/" className=" font-bold text-black text-5xl">
-              STONE
-              <span
-                className="bg-clip-text text-transparent bg-gradient-to-r
-            from-purple-400 to-pink-600"
-              >
-                web
-              </span>
-            </Link>
-            <p className=" font-bold text-black ">
-              my favorite frame-works includes: Next.js, Auth.js React.js,
-              Supabase, Prisma, Sanity (CMS), React QUERY, React-Hook-Form
-              Tailwind CSS, Redux/Toolkit, Framer Motion, ETC
-            </p>
+    <footer className="h-[200px] mt-10 border-t w-full bg-black-100 bottom-0 ">
+      <div className="px-14 py-5 ">
+        <div className="text-center">
+          <h1 className="text-primary font-bold text-2xl lg:text-4xl ">
+            STONEweb
+          </h1>
+          <hr className="mt-3" />
+          <h5 className=" text-lg text-gray-300 pt-3 pb-5">
+            Fullstack web developer
+          </h5>
+
+          <p></p>
+          <div className="mb-0 text-gray-400">
+            <p>All Right Reserved @peterstone</p>
           </div>
         </div>
-        <div className="col-span-2 space-y-10">
-          {/* //////////////////navigations */}
-          <div>
-            <h1>Navigations</h1>
-            <div className="gap-y-10  text-white ">
-              <Link href="/">
-                <CiHome className=" w-[20px] h-[20px] text-purple-600" /> Home
-              </Link>
-              <Link href="/about">
-                <FaUserTie className=" w-[20px] h-[20px] text-purple-600" />
-              </Link>
-              <Link href="/testimonials">
-                <FaStar className=" w-[20px] h-[22px] text-purple-600" />
-              </Link>
-              <Link href="/projects">
-                <FaStarOfLife className=" w-[20px] h-[30px] text-purple-600" />
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="col-span-4"></div>
       </div>
     </footer>
   );
