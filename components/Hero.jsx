@@ -1,6 +1,6 @@
 import { FaWhatsapp } from "react-icons/fa";
 import { IoMailUnreadOutline } from "react-icons/io5";
-import about8 from "../public/about8.png";
+import about9 from "../public/about9.jpg";
 
 import hero3 from "../public/hero3.png";
 import Image from "next/image";
@@ -13,11 +13,11 @@ const Hero = () => {
         {/* ////////////////////image */}
         <div>
           <Image
-            src={about8}
+            src={about9}
             width={200}
             height={200}
             alt="profile image"
-            className=" rounded-full w-[150px] h-[150px]"
+            className=" rounded-full w-[200px] h-[200px] object-contain"
           />
         </div>
         {/* ///////////////////////hero text */}
