@@ -7,10 +7,10 @@ import { FaStarOfLife } from "react-icons/fa";
 import { IoIosHome } from "react-icons/io";
 const Footer = () => {
   return (
-    <footer className="h-[200px] mt-10 border-t w-full bg-black-100 bottom-0 ">
+    <footer className="h-[300px] mt-10 border-t w-full bg-gray-900 bottom-0 ">
       <div className="px-14 py-5 ">
         <div className="text-center">
-          <h1 className="text-primary font-bold text-2xl lg:text-4xl ">
+          <h1 className="text-white font-bold text-2xl lg:text-4xl ">
             STONEweb
           </h1>
           <hr className="mt-3" />

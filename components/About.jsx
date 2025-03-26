@@ -62,25 +62,21 @@ const About = () => {
     ),
   };
   return (
-    <div className=" lg:h-[50vh] xl:h-[60vh] border-b  border-t ">
+    <div className=" lg:h-[40vh] xl:h-[80vh] border-b  my-5 ">
       <h1 className="text-center text-primary text-xl font-bold my-10 xl:text-3xl">
         ABOUT ME
       </h1>
-      <div className="grid lg:grid-cols-10 space-x-5  xl:w-[80%] w-full mx-auto">
+      <div className="grid lg:grid-cols-12 gap-4 space-y-4 xl:w-[80%] w-full mx-auto">
         {/* //////////////////////////left side */}
-        <div
-          data-aos="fade-up"
-          className="col-span-6 bg-gray-100 pb-5 px-3 py-10"
-        >
+        <div data-aos="fade-up" className="col-span-6 bg-gray-100 pb-5 px-3 ">
           {" "}
-          <h1 className="text-3xl px-3 lg:text-5xl font-bold text-primary">
-            Captivating
-            <span>Stories About Me</span>
+          <h1 className="text-3xl px-3 lg:text-4xl font-bold text-primary">
+            Captivating stories about me
           </h1>
           <p
             data-aos="fade-up"
-            className=" lg:py-10 py-2 my-10 text-black
-            lg:px-10"
+            className=" lg:py-5py-2 my-5 text-black
+            lg:px-5"
           >
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
@@ -92,9 +88,12 @@ const About = () => {
           </p>
         </div>
         {/* //////////////////////////right side */}
-        <div data-aos="fade-up" className="col-span-4 py-10 bg-gray-100">
+        <div
+          data-aos="fade-up"
+          className="col-span-6 w-full py-10 bg-slate-200"
+        >
           {/* ////////////////////////Tabs (button) */}
-          <div className="flex justify-start my-1">
+          <div className="flex justify-between w-full my-1">
             {tabs.map((tab) => (
               <div key={tab.id}>
                 <button

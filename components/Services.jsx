@@ -3,11 +3,11 @@ import { services } from "../constants/services";
 import { div } from "framer-motion/client";
 const Services = () => {
   return (
-    <div className=" px-2 lg:px-14 lg:py-5 xl:w-[70%] mx-auto mt-[5%] space-x-2 xl:space-x-5  mb-10 rounded xl:h-[60vh]  w-full ">
-      <h1 className="font-bold text-3xl text-center my-10 underline text-primary">
+    <div className=" px-2 lg:px-14 lg:py-5 xl:w-[70%] mx-auto  space-x-2 xl:space-x-5  mb-10 rounded xl:h-[80vh]  w-full ">
+      <h1 className="font-bold text-3xl text-center my-5underline text-primary">
         Services
       </h1>
-      <div className="grid lg:grid-cols-8 justify-between items-center space-y-4 space-x-3">
+      <div className="grid lg:grid-cols-8 justify-between items-center space-y-4 gap-4">
         {services.map((item, i) => (
           <div
             data-aos="fade-up"

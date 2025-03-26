@@ -24,7 +24,7 @@ import { projects } from "../constants/projects";
 import Link from "next/link";
 const Projects = () => {
   return (
-    <div className="px-2 lg:px-14 lg:py-5  bg-background border-t   xl:h-[80vh] w-full">
+    <div className="px-2 lg:px-14 lg:py-5  bg-background border-t   xl:min-h-[100vh] w-full">
       <div className="text-center my-3 lg:my-10">
         <h1 className="font-bold text-xl mb-5 text-primary ">
           MY RECENT PROJECTS
@@ -38,19 +38,19 @@ const Projects = () => {
           state management and so on
         </p>
       </div>
-      <div className="w-full lg:w-[80%] lg:mx-auto lg:grid lg:grid-cols-10 lg:justify-center p-10 lg:space-x-10 block  ">
+      <div className="w-full lg:w-[100%]  lg:space-x-10 block  ">
         {/* //////////////////left side */}
-        <div className="w-full lg:col-span-2 px-5 py-10 mb-5 h-[450px] bg-gray-200 hidden lg:block">
+        {/* <div className="w-full lg:col-span-2 px-5 py-10 mb-5 h-[420px] bg-gray-200 hidden lg:block">
           <h1 className="font-bold text-xl text-primary  mb-10">PROJECTS</h1>
           <p className="">
             Explore my wide range of fullstack projects, aimed at demonstrating
             my ability to work with the most recent and worldwide accepted
             frameworks
           </p>
-        </div>
+        </div> */}
         {/* //////////////////right side */}
-        <div className="col-span-8 space-x-0">
-          <Swiper
+        <div className="col-span-10 space-x-0 grid lg:grid-cols-4 grid-cols-1 gap-4">
+          {/* <Swiper
             autoplay={{
               delay: 2500,
               disableOnInteraction: false,
@@ -67,23 +67,24 @@ const Projects = () => {
             onSwiper={(swiper) => console.log(swiper)}
             className="xl:h-[450px] after: h-[100px] w-full"
           >
-            {projects.map((item, i) => (
-              <SwiperSlide key={i} className="space-x-0">
-                <Link href={item.href} className="">
-                  <Image
-                    src={item.image}
-                    alt="trusted brands"
-                    width={100}
-                    height={100}
-                    property=""
-                    className=" h-[300px] w-[600px]  object-cover"
-                  />
-                </Link>
-                <h1 className=" font-bold text-primary my-2">{item.title}</h1>
-                <p className="line-clamp-3">{item.description}</p>
-              </SwiperSlide>
-            ))}
-          </Swiper>
+           
+          </Swiper> */}
+          {projects.map((item, i) => (
+            <div key={i} className="space-x-0">
+              <Link href={item.href} className="">
+                <Image
+                  src={item.image}
+                  alt="trusted brands"
+                  width={100}
+                  height={100}
+                  property=""
+                  className=" h-[300px] lg:w-[600px] w-full  object-cover"
+                />
+              </Link>
+              <h1 className=" font-bold text-primary my-2">{item.title}</h1>
+              <p className="">{item.description}</p>
+            </div>
+          ))}
         </div>
       </div>
     </div>

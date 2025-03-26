@@ -39,7 +39,7 @@ const Partners = () => {
           scrollbar={{ draggable: true }}
           /////////////////////////
           spaceBetween={30}
-          slidesPerView={3}
+          slidesPerView={7}
           onSlideChange={() => console.log("slide change")}
           onSwiper={(swiper) => console.log(swiper)}
           className="xl:h-20 h-[100vh] w-full"
