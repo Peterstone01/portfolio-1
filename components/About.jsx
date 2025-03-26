@@ -18,9 +18,9 @@ const About = () => {
         </h1>
         <p className="text-sm xl:text-base  ">
           React.js (CSR), Next.js (SSR), Auth.js (Authentication) Supabase,
-          (Postgress Database), Prisma Adapter, Sanity (CMS Studio), Groq QUERY,
-          (sanity query language), Tanstack Query (React Query), Redux/Toolkit
-          (State Management), React Hook form, Framer Motion.
+          MONGO db, (Postgress Database), Prisma Adapter, Sanity (CMS Studio),
+          Groq QUERY, (sanity query language), Tanstack Query (React Query),
+          Redux/Toolkit (State Management), React Hook form, Framer Motion.
         </p>
       </div>
     ),
