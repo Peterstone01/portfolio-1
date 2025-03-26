@@ -30,10 +30,10 @@ const Hero = () => {
               <p className="   lg:font-bold text-xl  lg:text-2xl">
                 Hi, I am Peter Ogechukwu,
               </p>
-              <h1 className="  font-bold text-3xl  my-3 text-primary lg:font-extrabold lg:text-5xl">
+              <h1 className="  font-bold text-3xl my-1 lg:my-3 text-primary lg:font-extrabold lg:text-5xl">
                 A Fullstack{" "}
               </h1>
-              <h1 className="  font-bold text-3xl   text-primary lg:font-extrabold lg:text-5xl">
+              <h1 className="  font-bold    text-primary lg:font-extrabold lg:text-5xl">
                 Web Developer
               </h1>
               <p className=" hidden lg:block my-3">
