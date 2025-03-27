@@ -20,7 +20,7 @@ const Hero = () => {
                 width={200}
                 height={200}
                 alt="profile image"
-                className="  rounded-full lg:rounded-3xl lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px] object-contain"
+                className="  rounded lg:rounded-3xl lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px] object-contain"
               />
             </div>
           </div>
