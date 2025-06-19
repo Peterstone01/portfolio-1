@@ -6,6 +6,13 @@ import project10 from "../public/project10.jpg";
 
 export const projects = [
   {
+    title: "E-commerce website  with Sanity CMS",
+    image: project2,
+    href: "https://supermarket-front-end.vercel.app",
+    description:
+      "Built and deployed a modern Fullstack Ecommerce webpage with both client side and admin panel. the technologies used in the developement includes: Mongo Database for data Structure, Express Server, React.js for UI, JsonWebToken for authentication and authorization, Redux/Toolkit and Context API for state Management Localstorage, cookie-parser, Multer to handle file uploads and Deployment to Vercel",
+  },
+  {
     title: "Fullstack Blog with Sanity CMS",
     image: project1,
     href: "https://blog-steel-seven-83.vercel.app/",
@@ -26,12 +33,5 @@ export const projects = [
     href: "https://blog-3.sanity.studio/structure",
     description:
       "The essence of building this web blog is to showcase my ability on how to use the postgress database (supabase), prisma Adapter manager, how to query the studio with Prisma Adapter and render the components on the Frontend",
-  },
-  {
-    title: "E-commerce website  with Sanity CMS",
-    image: project2,
-    href: "/soon",
-    description:
-      "The essence of building this web blog is to showcase my ability on how to use the Sanity CMS as a content manager, how to query the studio with Groqs and render the components on the UI",
   },
 ];

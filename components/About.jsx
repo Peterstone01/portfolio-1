@@ -17,10 +17,10 @@ const About = () => {
           My acquired skills includes but not restricted to:
         </h1>
         <p className="text-sm xl:text-base  ">
-          React.js (CSR), Next.js (SSR), Auth.js (Authentication) Supabase,
-          MONGO db, (Postgress Database), Prisma Adapter, Sanity (CMS Studio),
-          Groq QUERY, (sanity query language), Tanstack Query (React Query),
-          Redux/Toolkit (State Management), React Hook form, Framer Motion.
+          React.js (CSR), Next.js (SSR), JsonWebToken (Authentication) MONGO db,
+          (Postgress Database), Tanstack Query (React Query), Redux/Toolkit,
+          Context API (State Management), React Hook form, Framer Motion,
+          Express.js, MERN-Stack developement and deployment
         </p>
       </div>
     ),
@@ -40,6 +40,12 @@ const About = () => {
             2025 (incl. Next.js, Redux),
           </li>
           <li>FreeCodeCamp Responsive Web Design</li>
+          <li>
+            {" "}
+            <span className="font-bold">UDEMY</span>:Web developer Professional
+            certification
+          </li>
+          <li>MTF- Intitute of Management, Technology and Finance</li>
         </ul>
       </div>
     ),
@@ -80,11 +86,11 @@ const About = () => {
           >
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
-            working with Next.js, React.js, Redux/Toolkit, Auth.js, Supabase,
-            PostgreSQL, Prisma, HTML, CSS, Tailwind, Sanity CMS and Git. I am a
-            quick learner and I am always looking to expand my knowledge and
-            skill set. I am a team player and I am excited to work with others
-            to create amazing applications.
+            working with Next.js, React.js, Redux/Toolkit, Mongo Database, HTML,
+            CSS, Tailwind,MERN-stack Sanity CMS and Git. I am a quick learner
+            and I am always looking to expand my knowledge and skill set. I am a
+            team player and I am excited to work with others to create amazing
+            applications.
           </p>
         </div>
         {/* //////////////////////////right side */}

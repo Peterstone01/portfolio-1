@@ -38,12 +38,12 @@ const Hero = () => {
               </h1>
               <p className=" hidden lg:block my-3">
                 I am Dynamic, responsive, user-friendly and well optimized Web
-                Developer. my favorite frame-works includes: Next.js, Auth.js
-                React.js, Supabase, Prisma, Sanity (CMS), React QUERY,
-                React-Hook-Form Tailwind CSS, Redux/Toolkit, Framer Motion.
+                Developer. my favorite frame-works includes: Next.js, React.js,
+                Mongo Database, React QUERY, React-Hook-Form Tailwind CSS,
+                Redux/Toolkit, Framer Motion, MERN Stack.
               </p>
 
-              <h2 className="hidden lg:block font-bold text-3xl  my-5">
+              <h2 className="hidden lg:block font-bold text-lg lg:text-3xl  my-5">
                 For Collaboration and about your next project?
               </h2>
               <div className="hidden lg:block my-10 space-x-5">
