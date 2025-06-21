@@ -30,10 +30,10 @@ const Hero = () => {
               <p className="   lg:font-bold text-xl  lg:text-2xl">
                 Hi, I am Peter Ogechukwu,
               </p>
-              <h1 className="  font-bold text-2xl my-1 lg:my-3 text-primary lg:font-extrabold lg:text-4xl">
+              <h1 className="  font-bold text-2xl my-1 lg:my-3 text-primary lg:font-extrabold lg:text-3xl">
                 A Fullstack{" "}
               </h1>
-              <h1 className="  font-bold    text-primary lg:font-extrabold lg:text-4xl">
+              <h1 className="  font-bold    text-primary lg:font-extrabold lg:text-3xl">
                 Web Developer
               </h1>
               <p className=" hidden lg:block my-3">
@@ -52,9 +52,8 @@ const Hero = () => {
             </button> */}
                 <Link
                   href="https://wa.me/+2348138979218"
-                  className="bg-green-500 py-2 px-5 rounded font-bold text-lg text-white flex items-center gap-2 justify-start"
+                  className="bg-green-500 py-2 px-5 rounded font-bold text-lg text-white "
                 >
-                  <FaWhatsapp />
                   Whatsapp
                 </Link>
               </div>
@@ -78,7 +77,7 @@ const Hero = () => {
             </button> */}
             <Link
               href="https://wa.me/+2348138979218"
-              className="bg-primary py-2 px-5 rounded font-bold text-lg text-white"
+              className="bg-primary py-2 px-5 rounded font-bold text-lg text-green-500"
             >
               Whatsap
             </Link>
