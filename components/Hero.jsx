@@ -77,7 +77,7 @@ const Hero = () => {
             </button> */}
             <Link
               href="https://wa.me/+2348138979218"
-              className="bg-primary py-2 px-5 rounded font-bold text-lg text-green-500"
+              className="text-white py-2 px-5 rounded font-bold text-lg bg-green-500"
             >
               Whatsap
             </Link>
