@@ -77,7 +77,7 @@ const About = () => {
         <div data-aos="fade-up" className="col-span-6 bg-gray-100 pb-5 px-3 ">
           {" "}
           <h1 className="text-3xl px-3 lg:text-4xl font-bold text-primary">
-            Captivating stories about me
+            Careers stories about me
           </h1>
           <p
             data-aos="fade-up"

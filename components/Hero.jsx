@@ -30,10 +30,10 @@ const Hero = () => {
               <p className="   lg:font-bold text-xl  lg:text-2xl">
                 Hi, I am Peter Ogechukwu,
               </p>
-              <h1 className="  font-bold text-3xl my-1 lg:my-3 text-primary lg:font-extrabold lg:text-5xl">
+              <h1 className="  font-bold text-2xl my-1 lg:my-3 text-primary lg:font-extrabold lg:text-4xl">
                 A Fullstack{" "}
               </h1>
-              <h1 className="  font-bold    text-primary lg:font-extrabold lg:text-5xl">
+              <h1 className="  font-bold    text-primary lg:font-extrabold lg:text-4xl">
                 Web Developer
               </h1>
               <p className=" hidden lg:block my-3">
@@ -52,9 +52,10 @@ const Hero = () => {
             </button> */}
                 <Link
                   href="https://wa.me/+2348138979218"
-                  className="bg-primary py-2 px-5 rounded font-bold text-lg text-white"
+                  className="bg-green-500 py-2 px-5 rounded font-bold text-lg text-white flex items-center gap-2 justify-start"
                 >
-                  Whatsap
+                  <FaWhatsapp />
+                  Whatsapp
                 </Link>
               </div>
             </div>
@@ -63,12 +64,12 @@ const Hero = () => {
         <div>
           <p className=" lg:hidden my-3">
             I am Dynamic, responsive, user-friendly and well optimized Web
-            Developer. my favorite frame-works includes: Next.js, Auth.js
-            React.js, Supabase, Prisma, Sanity (CMS), React QUERY,
-            React-Hook-Form Tailwind CSS, Redux/Toolkit, Framer Motion.
+            Developer with a strong understanding of React JS, Next JS, Tailwind
+            CSS, Node.js, Express.js, Mongo Database, Sanity (CMS), React QUERY,
+            React-Hook-Form Tailwind CSS, Redux/Toolkit, Framer Motion, etc.
           </p>
 
-          <h2 className="lg:hidden font-bold text-3xl  my-5">
+          <h2 className="lg:hidden font-bold text-2xl  my-3">
             For Collaboration and about your next project?
           </h2>
           <div className="lg:hidden my-10 space-x-5">

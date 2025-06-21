@@ -70,7 +70,10 @@ const Projects = () => {
            
           </Swiper> */}
           {projects.map((item, i) => (
-            <div key={i} className="space-x-0">
+            <div
+              key={i}
+              className="space-x-0 shadow-2xl bg-white px-2 lg:p-5 rounded"
+            >
               <Link href={item.href} className="">
                 <Image
                   src={item.image}
@@ -82,7 +85,7 @@ const Projects = () => {
                 />
               </Link>
               <h1 className=" font-bold text-primary my-2">{item.title}</h1>
-              <p className="">{item.description}</p>
+              <p className="line-clamp-4">{item.description}</p>
             </div>
           ))}
         </div>

@@ -6,9 +6,9 @@ import project10 from "../public/project10.jpg";
 
 export const projects = [
   {
-    title: "E-commerce website  with Sanity CMS",
+    title: " Fullstack (MERN) E-commerce website  with Admin Panel",
     image: project2,
-    href: "https://supermarket-front-end.vercel.app",
+    href: "https://stoneweb-supermarket.vercel.app/",
     description:
       "Built and deployed a modern Fullstack Ecommerce webpage with both client side and admin panel. the technologies used in the developement includes: Mongo Database for data Structure, Express Server, React.js for UI, JsonWebToken for authentication and authorization, Redux/Toolkit and Context API for state Management Localstorage, cookie-parser, Multer to handle file uploads and Deployment to Vercel",
   },
@@ -17,7 +17,7 @@ export const projects = [
     image: project1,
     href: "https://blog-steel-seven-83.vercel.app/",
     description:
-      "The essence of building this web blog is to showcase my ability on how to use the Sanity CMS as a content manager, how to query the studio with Groqs and render the components on the UI",
+      "In this Project, I built and deployed a blogging website using Next.js and Sanity CMS. During development, I used the Tanstack/React Query for my data fetching after a Groq query to filter a data of interest, used React Hook form to handle form Submission, etc. I deployed the website using Vercel after uploading to GIT hub. ",
   },
   {
     title: "Crud App",
